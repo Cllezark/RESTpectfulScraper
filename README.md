@@ -1,4 +1,4 @@
-# RESTpectfulScraper
+﻿# RESTpectfulScraper
 
 This simple scraper harvests Yu-Gi-Oh card data from a .csv in the `/input` directory and turns them into a game-formatted .csv placed in the `/output` directory. 
 
@@ -13,9 +13,7 @@ To manually generate .csv files based on .cdb files, use [DB Browser for SQLite]
 ### Future goals
 
 1. Automate the data collection process	
-
-... When cards get added to `cards.delta.cdb`, the EDO Pro maintainers make a commit. If we can trigger an update to our .csv whenever that file changes, we're in business.
+⋅⋅* When cards get added to `cards.delta.cdb`, the EDO Pro maintainers make a commit. If we can trigger an update to our .csv whenever that file changes, we're in business.
 2. Record all intermediate API responses
-
- ... As a gut check, it would be great if we could cache the json responses from the [ygoprodeck API](https://ygoprodeck.com/api-guide/) in the `/output` directory. There's juicy data in those responses that could be helpful later on.
+⋅⋅* As a gut check, it would be great if we could cache the json responses from the [ygoprodeck API](https://ygoprodeck.com/api-guide/) in the `/output` directory. There's juicy data in those responses that could be helpful later on.
 
