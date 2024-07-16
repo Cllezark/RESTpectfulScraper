@@ -72,7 +72,7 @@ using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
 
 
             //// 3) wait a fraction of a second before firing off the next request
-            await Task.Delay(75);
+            await Task.Delay(50);
 
         }
         //// 4) if the call fails, write something to that effect in place of the response
